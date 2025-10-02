@@ -25,6 +25,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/floating-wpp.min.css">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -1350,7 +1351,7 @@
               <div class="product-image">
                 <span class="badge">Sale</span>
                 <img src="assets/img/product/product-1.webp" alt="Product" class="img-fluid main-img">
-                <img src="assets/img/product/product-1-variant.webp" alt="Product Hover" class="img-fluid hover-img">
+                <img src="assets/img/product/product-f-1.webp" alt="Product Hover" class="img-fluid hover-img">
                 <div class="product-overlay">
                   <a href="cart.html" class="btn-cart"><i class="bi bi-cart-plus"></i> Add to Cart</a>
                   <div class="product-actions">
@@ -1755,10 +1756,18 @@
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/floating-wpp.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <div id="myDiv"></div>
 </body>
-
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '918981597260'
+    });
+  });
+</script>
 </html>
