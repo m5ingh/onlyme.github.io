@@ -24,17 +24,11 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+  <link href="assets/css/floating-wpp.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: NiceShop
-  * Template URL: https://bootstrapmade.com/niceshop-bootstrap-ecommerce-template/
-  * Updated: Aug 26 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="starter-page-page">
@@ -835,9 +829,9 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-widget footer-about">
               <a href="index.html" class="logo">
-                <span class="sitename">NiceShop</span>
+                <span class="sitename">OnlyMe</span>
               </a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nibh vehicula, facilisis magna ut, consectetur lorem. Proin eget tortor risus.</p>
+              <p>OnlyMe is a Premier B2B Baby Wear Manufacturer located in Kolkata. OnlyMe is dedicated to provide stylish, trendy and comfortable baby wear clothing at affordable rates.</p>
 
               <div class="social-links mt-4">
                 <h5>Connect With Us</h5>
@@ -857,12 +851,11 @@
             <div class="footer-widget">
               <h4>Shop</h4>
               <ul class="footer-links">
-                <li><a href="category.html">New Arrivals</a></li>
-                <li><a href="category.html">Bestsellers</a></li>
-                <li><a href="category.html">Women's Clothing</a></li>
-                <li><a href="category.html">Men's Clothing</a></li>
-                <li><a href="category.html">Accessories</a></li>
-                <li><a href="category.html">Sale</a></li>
+                <li><a href="category.html">NewBorn</a></li>
+                <li><a href="category.html">Unisex</a></li>
+                <li><a href="category.html">Baby Boy</a></li>
+                <li><a href="category.html">Baby Girl</a></li>
+                <li><a href="category.html">By Age</a></li>
               </ul>
             </div>
           </div>
@@ -871,8 +864,8 @@
             <div class="footer-widget">
               <h4>Support</h4>
               <ul class="footer-links">
+                <li><a href="faq.html">FAQs</a></li>
                 <li><a href="support.html">Help Center</a></li>
-                <li><a href="account.html">Order Status</a></li>
                 <li><a href="shiping-info.html">Shipping Info</a></li>
                 <li><a href="return-policy.html">Returns &amp; Exchanges</a></li>
                 <li><a href="#">Size Guide</a></li>
@@ -887,15 +880,15 @@
               <div class="footer-contact">
                 <div class="contact-item">
                   <i class="bi bi-geo-alt"></i>
-                  <span>123 Fashion Street, New York, NY 10001</span>
+                  <span>2nd Floor, 1E, Madan Mohan Burman St, HANDI PATTI, Bara Bazar, Jorasanko, Kolkata, West Bengal 700007</span>
                 </div>
                 <div class="contact-item">
                   <i class="bi bi-telephone"></i>
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 8981597260</span>
                 </div>
                 <div class="contact-item">
                   <i class="bi bi-envelope"></i>
-                  <span>hello@example.com</span>
+                  <span>hello@onlyme.in</span>
                 </div>
                 <div class="contact-item">
                   <i class="bi bi-clock"></i>
@@ -903,16 +896,7 @@
                 </div>
               </div>
 
-              <div class="app-buttons mt-4">
-                <a href="#" class="app-btn">
-                  <i class="bi bi-apple"></i>
-                  <span>App Store</span>
-                </a>
-                <a href="#" class="app-btn">
-                  <i class="bi bi-google-play"></i>
-                  <span>Google Play</span>
-                </a>
-              </div>
+
             </div>
           </div>
         </div>
@@ -924,14 +908,10 @@
         <div class="row gy-3 align-items-center">
           <div class="col-lg-6 col-md-12">
             <div class="copyright">
-              <p>© <span>Copyright</span> <strong class="sitename">NiceShop</strong>. All Rights Reserved.</p>
+              <p>© <span>Copyright</span> <strong class="sitename">OnlyMe</strong>. All Rights Reserved.</p>
             </div>
             <div class="credits mt-1">
-              <!-- All the links in the footer should remain intact. -->
-              <!-- You can delete the links only if you've purchased the pro version. -->
-              <!-- Licensing information: https://bootstrapmade.com/license/ -->
-              <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="https://mayanksingh.dev">mayanksingh.dev</a>
             </div>
           </div>
 
@@ -975,10 +955,20 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/floating-wpp.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <div id="myDiv"></div>
 </body>
-
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '918981597260'
+    });
+  });
+</script>
 </html>
